@@ -40,7 +40,7 @@ body{
 	height: 50px; 
 	position: absolute;
 	top: 2px;
-	background: url('../images/mini-social-icons.png') 0 0 no-repeat;
+	background: url('../images-min/mini-social-icons.png') 0 0 no-repeat;
 	display: block;
 	list-style: none;
 }
