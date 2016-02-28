@@ -1,6 +1,19 @@
+
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
 .logomenu
 {
 	padding: 2px;
+}
+
+#footnav a{
+	padding: 2px 10px 2px 10px;
+}
+
+#footnav a:hover{
+	background-color: #8888ff;
 }
 
 #redes {
