@@ -1,6 +1,12 @@
 
 *{
 	font-family: 'Raleway', sans-serif;
+
+}
+
+body{
+		background: #363636;
+		color:#cdcccc;
 }
 
 .logomenu
@@ -8,13 +14,22 @@
 	padding: 2px;
 }
 
+#navbar a:hover{
+	background-color: #cdcccc;
+	color:#363636;
+}
+
 #footnav a{
 	padding: 2px 10px 2px 10px;
+	color:#cdcccc;
 }
 
 #footnav a:hover{
-	background-color: #8888ff;
+	background-color: #cdcccc;
+	color:#363636;
 }
+
+/*ICONOS REDES SOCIALES SPRITE*/
 
 #redes {
 	position: relative;
@@ -38,19 +53,19 @@
 
 #redes #face {
 	left: 0px;
-	background-position: 0px -50px;
+	background-position: 0px -51px;
 }
 #redes #twi {
 	left: 50px;
-	background-position: -400px -50px;
+	background-position: -400px -51px;
 }
 #redes #you {
 	left: 100px;
-	background-position: -500px -50px;
+	background-position: -500px -51px;
 }
 #redes #goo {
 	left: 150px;
-	background-position: -150px -50px;
+	background-position: -150px -51px;
 }
 
 #redes #face:hover {
