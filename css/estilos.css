@@ -39,6 +39,11 @@ h2
 	padding:10px;
 }
 
+#contacto input
+{
+	color:black;
+}
+
 /*PAGINACION*/
 .pagination li a{
 	background-color: #cdcccc;
