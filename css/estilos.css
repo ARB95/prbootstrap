@@ -9,6 +9,11 @@ body{
 		color:#cdcccc;
 }
 
+h2
+{
+	font-family: 'Passion One', sans-serif;
+}
+
 .logomenu
 {
 	padding: 2px;
@@ -32,6 +37,22 @@ body{
 #redeslabel
 {
 	padding:10px;
+}
+
+/*PAGINACION*/
+.pagination li a{
+	background-color: #cdcccc;
+	color: #363636;
+}
+
+.pagination li a:hover{
+	background-color: #363636;
+	color: #cdcccc;
+}
+
+.pagination li a.active{
+	background-color: #0088ff;
+	color: black;
 }
 
 /*ICONOS REDES SOCIALES SPRITE*/
