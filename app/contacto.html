@@ -5,9 +5,7 @@
     <title>FF VII R - Noticias</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
 	<link rel="shortcut icon" sizes="16x16" type="image/png" href="../images-min/logoff.png">
 	
     <link rel="stylesheet" href="styles/main.css">
@@ -92,22 +90,25 @@
 				<h3>Recibe las últimas noticias al instante</h3>
 				
 				<form id="contacto" method="post" action="#">
-					<div class="col-md-2"><label for="nombre">Nombre</label></div>
-					<div class="col-md-10"><input type="text" class="form-control" placeholder="Nombre" aria-describedby="sizing-addon1" name="nombre" id="nombre"/></div>
-					<br/>
-					<br/>
-					<div class="col-md-2"><label for="tel">Telefono</label></div>
-					<div class="col-md-10"><input type="phone" class="form-control" placeholder="Telefono" aria-describedby="sizing-addon1" name="tel" id="tel"/></div>
-					<br/>
-					<br/>
-					<div class="col-md-2"><label for="email">Email</label></div>
-					<div class="col-md-10"><input type="email" class="form-control" placeholder="Email" aria-describedby="sizing-addon1" name="email" id="email"/></div>
-					<br/>
-					<br/>
-					<div class="col-md-2"><label for="com">Comentarios</label></div>
-					<div class="col-md-10"><textarea class="form-control" placeholder="Comentarios" aria-describedby="sizing-addon1" name="com" id="com"/></textarea></div>
-					
-					<div class="col-md-12"><input type="submit" class="form-control" aria-describedby="sizing-addon1" value="Enviar" name="enviar" id="enviar"/></div>
+					<div class="form-group"> 
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" placeholder="Nombre" aria-describedby="sizing-addon1" name="nombre" id="nombre"/>
+					</div>
+					<div class="form-group"> 
+                        <label for="tel">Telefono</label>
+                        <input type="phone" class="form-control" placeholder="Telefono" aria-describedby="sizing-addon1" name="tel" id="tel"/>
+                    </div>
+                    <div class="form-group"> 
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" placeholder="Email" aria-describedby="sizing-addon1" name="email" id="email"/>
+                    </div>
+                    <div class="form-group"> 
+                        <label for="com">Comentarios</label>
+                        <textarea class="form-control" placeholder="Comentarios" aria-describedby="sizing-addon1" name="com" id="com"/></textarea>
+                    </div>
+                    <div class="form-group"> 
+					    <input type="submit" class="form-control" aria-describedby="sizing-addon1" value="Enviar" name="enviar" id="enviar"/>
+                    </div>
 				</form>
 				
 			
@@ -129,10 +130,10 @@
 			<div class="col-md-12">
 					<label id="redeslabel">Siguenos en las redes sociales:</label>
 					<ul id="redes">
-						<li id="face"><a href="https://es-es.facebook.com/"></a></li>
-						<li id="twi"><a href="https://twitter.com/?lang=es"></a></li>					
-						<li id="you"><a href="https://www.youtube.com/"></a></li>					
-						<li id="goo"><a href="https://plus.google.com/"></a></li>					
+						<li id="face"><a href="https://es-es.facebook.com/" target="_blank"></a></li>
+						<li id="twi"><a href="https://twitter.com/?lang=es" target="_blank"></a></li>					
+						<li id="you"><a href="https://www.youtube.com/" target="_blank"></a></li>					
+						<li id="goo"><a href="https://plus.google.com/" target="_blank"></a></li>					
 					</ul>
 			</div>
     </footer>
