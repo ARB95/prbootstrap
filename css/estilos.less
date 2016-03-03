@@ -1,0 +1,140 @@
+@color-oscuro : #363636;
+@color-claro : #cdcccc;
+
+@fuente-titulo : 'Passion One';
+@fuente-texto : 'Raleway';
+
+
+*{
+	font-family: @fuente-texto, sans-serif;
+
+}
+
+body{
+		background: @color-oscuro;
+		color:@color-claro;
+}
+
+h2
+{
+	font-family: @fuente-titulo, sans-serif;
+}
+
+/*HEADER*/
+.logomenu
+{
+	padding: 2px;
+}
+
+#navbar a:hover{
+	background-color: @color-claro;
+	color:@color-oscuro;
+}
+
+/*FOOTER*/
+#footnav {
+
+	a
+	{
+		padding: 2px 10px 2px 10px;
+		color:#cdcccc;
+	}
+
+	a:hover{
+		background-color: @color-claro;
+		color: @color-oscuro;
+	}
+}
+
+
+#redeslabel
+{
+	padding:10px;
+}
+
+#contacto input
+{
+	color:black;
+}
+
+/*CENTRAR CAROUSEL*/
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+/*PAGINACION*/
+.pagination
+{
+	li a{
+		background-color: @color-claro;
+		color: @color-oscuro;
+	}
+
+	li a:hover{
+		background-color: @color-oscuro;
+		color: @color-claro;
+	}
+
+	li a.active{
+		background-color: #0088ff;
+		color: black;
+	}
+
+} 
+
+/*ICONOS REDES SOCIALES SPRITE*/
+
+#redes {
+	position: relative;
+
+
+	li {
+		width: 50px;
+		height: 50px; 
+		position: absolute;
+		top: 2px;
+		background: url('../images-min/mini-social-icons.png') 0 0 no-repeat;
+		display: block;
+		list-style: none;
+	}
+
+	a {
+		width: 50px;
+		height: 50px;
+		display: block;
+	}
+
+	#face {
+		left: 0px;
+		background-position: 0px -51px;
+	}
+	#twi {
+		left: 50px;
+		background-position: -400px -51px;
+	}
+	#you {
+		left: 100px;
+		background-position: -500px -51px;
+	}
+	#goo {
+		left: 150px;
+		background-position: -150px -51px;
+	}
+
+	#face:hover {
+		background-position: 0px 0px;
+	}
+	#twi:hover {
+		background-position: -400px 0px;
+	}
+	#you:hover {
+		background-position: -500px 0px;
+	}
+	#goo:hover {
+		background-position: -150px 0px;
+	}
+
+}
+
+
